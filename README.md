@@ -34,8 +34,9 @@ OOTD 피드, 팔로우, 메시지 기능을 제공하는 소셜 기반 패션 �
 ## ♾️ CI/CD 파이프라인 및 배포 결과
 <img width="1883" height="852" alt="image" src="https://github.com/user-attachments/assets/57192397-06d9-4d31-b37d-8c72a517fd8c" />
 <img width="1645" height="771" alt="image" src="https://github.com/user-attachments/assets/1243debd-ee22-47c6-b4ef-f23a550f0803" />
-- GitHub Actions를 활용하여 코드 Push → 테스트 실행 → Docker 이미지 빌드 → ECR Push → ECS 배포까지 **자동화된 CI/CD 파이프라인을 구축**했습니다.
-- **OIDC 기반 인증**을 적용하여 GitHub에 AWS Access Key를 저장하지 않고 안전하게 AWS 리소스에 접근하도록 설계했습니다.
+- GitHub Actions를 활용하여 코드 Push → 테스트 실행 → Docker 이미지 빌드 → ECR Push → ECS 배포까지 자동화된 CI/CD 파이프라인을 구축했습니다.
+
+- OIDC 기반 인증을 적용하여 GitHub에 AWS Access Key를 저장하지 않고 안전하게 AWS 리소스에 접근하도록 설계했습니다.
 
 
 ## 📁 폴더 구조
@@ -54,5 +55,6 @@ OOTD 피드, 팔로우, 메시지 기능을 제공하는 소셜 기반 패션 �
 <img width="927" height="770" alt="image" src="https://github.com/user-attachments/assets/6dc74cb9-26f0-48f2-8712-815fa55c8fe7" />
 <img width="1501" height="940" alt="image" src="https://github.com/user-attachments/assets/27f6bebb-dc88-4d60-9883-dafc1025a4b8" />
 - GitHub Issue와 PR 템플릿을 활용해 작업 흐름을 관리하고 `main / dev / feature` 브랜치 전략을 적용했습니다.
-- 팀원 간 코드 리뷰를 통해 코드 품질을 개선하고 리포지토리 및 서비스 테스트 코드 작성을 통해 **테스트 커버리지를 75%** 까지 올렸습니다.
+  
+- 팀원 간 코드 리뷰를 통해 코드 품질을 개선하고 리포지토리 및 서비스 테스트 코드 작성을 통해 테스트 커버리지를 75%까지 올렸습니다.
 
